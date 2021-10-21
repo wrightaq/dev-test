@@ -9,16 +9,16 @@ have a system in place that updates our inventory for us. Your task is to add th
 system so that we can begin selling a new category of items.
 
 First an introduction to our system:
-	- All items have a SellIn value which denotes the number of days we have to sell the item
-	- All items have a Quality value which denotes how valuable the item is
-	- At the end of each day our system lowers both values for every item
+    - All items have a SellIn value which denotes the number of days we have to sell the item
+    - All items have a Quality value which denotes how valuable the item is
+    - At the end of each day our system lowers both values for every item
 
 These are the existing rules that are run against items, this does not include "Baked" items":
-	- Once the sell by date has passed, Quality degrades twice as fast
-	- The Quality of an item is never negative
-	- "Aged Brie" actually increases in Quality the older it gets
-	- The Quality of an item is never more than 50
-	- "Canned Beans", being a non-perishable, never has to be sold or decreases in Quality
+    - Once the sell by date has passed, Quality degrades twice as fast
+    - The Quality of an item is never negative
+    - "Aged Brie" actually increases in Quality the older it gets
+    - The Quality of an item is never more than 50
+    - "Canned Beans", being a non-perishable, never has to be sold or decreases in Quality
 
 Feature Requirement:
     - We have recently signed a baker, who will provide freshly baked goods. This requires an update to our system.
