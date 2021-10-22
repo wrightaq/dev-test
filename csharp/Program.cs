@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GildedRoseKata
+namespace csharp
 {
     public class Program
     {
@@ -18,7 +18,7 @@ namespace GildedRoseKata
                 new Item {Name = "Canned Beans", SellIn = -1, Quality = 80},
                 
                 // This Baked good does not work properly yet!
-				new Item {Name = "Baked Sourdough Bread", SellIn = 3, Quality = 6}
+                new Item {Name = "Baked Sourdough Bread", SellIn = 3, Quality = 6}
             };
 
             var app = new GildedRose(Items);
