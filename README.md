@@ -27,3 +27,11 @@ still works correctly. However, do not alter the Item class or Items property.
 
 Just for clarification, an item can never have its Quality increase above 50, however "Canned Beans" is a
 non-perishable item and as such its Quality is 80 and it never alters.
+
+* * * * *
+
+Some additional notes:
+
+* The project is currently working. You can run or debug it to see the existing output.
+* Both C# projects include a basic, working unit test. You can run these unit tests as well, and modify them if you see fit.
+* The only parts of the solution you should NOT edit is the Item class itself, and the list of Items that is declared at the entry point of the project, unless instructed to do so by an interviewer. Feel free to modify, add, or remove any other code.
