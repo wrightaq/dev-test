@@ -1,9 +1,9 @@
-package com.gildedrose;
+package com.shimart;
 
-class GildedRose {
+class ShiMart {
     Item[] items;
 
-    public GildedRose(Item[] items) {
+    public ShiMart(Item[] items) {
         this.items = items;
     }
 

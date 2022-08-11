@@ -1,6 +1,6 @@
-# Gilded Rose
+# Shi Mart
 
-This is the Gilded Rose kata in JavaScript
+This is the Shi Mart kata in JavaScript
 
 ## Getting started
 

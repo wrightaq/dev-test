@@ -1,4 +1,4 @@
-package com.gildedrose;
+package com.shimart;
 
 public class Item {
 

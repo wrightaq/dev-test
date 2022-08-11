@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 import unittest
 
-from gilded_rose import Item, GildedRose
+from shi_mart import Item, ShiMart
 
 
-class GildedRoseTest(unittest.TestCase):
+class ShiMartTest(unittest.TestCase):
     def test_foo(self):
         items = [Item("foo", 0, 0)]
-        gilded_rose = GildedRose(items)
-        gilded_rose.update_quality()
+        shi_mart = ShiMart(items)
+        shi_mart.update_quality()
         self.assertEquals("fixme", items[0].name)
 
         

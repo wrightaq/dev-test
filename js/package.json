@@ -1,23 +1,23 @@
 {
-  "name": "gilded-rose-kata",
+  "name": "shi-mart-kata",
   "version": "1.0.0",
-  "description": "Gilded Rose kata in JavaScript",
+  "description": "Shi Mart kata in JavaScript",
   "scripts": {
     "start": "node run_store.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emilybache/GildedRose-Refactoring-Kata.git"
+    "url": "git+https://github.com/RobShi/dev-test"
   },
   "keywords": [
     "kata",
     "refactor",
-    "gilded-rose"
+    "shi-mart"
   ],
   "license": "MIT",
   "private": true,
   "bugs": {
-    "url": "https://github.com/emilybache/GildedRose-Refactoring-Kata/issues"
+    "url": "https://github.com/RobShi/dev-test/issues"
   },
-  "homepage": "https://github.com/emilybache/GildedRose-Refactoring-Kata"
+  "homepage": "https://github.com/RobShi/dev-test"
 }

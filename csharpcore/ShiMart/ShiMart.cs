@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 
-namespace csharp
+namespace ShiMartKata
 {
-    public class GildedRose
+    public class ShiMart
     {
         IList<Item> Items;
-        public GildedRose(IList<Item> Items)
+        public ShiMart(IList<Item> Items)
         {
             this.Items = Items;
         }

@@ -1,4 +1,4 @@
-package com.gildedrose;
+package com.shimart;
 
 public class TexttestFixture {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class TexttestFixture {
                 // This Baked good does not work properly yet!
                 new Item("Baked Sourdough Bread", 3, 6) };
 
-        GildedRose app = new GildedRose(items);
+        ShiMart app = new ShiMart(items);
 
         int days = 2;
         if (args.length > 0) {
