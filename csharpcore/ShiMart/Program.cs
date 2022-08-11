@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GildedRoseKata
+namespace ShiMartKata
 {
     public class Program
     {
@@ -21,7 +21,7 @@ namespace GildedRoseKata
 				new Item {Name = "Baked Sourdough Bread", SellIn = 3, Quality = 6}
             };
 
-            var app = new GildedRose(Items);
+            var app = new ShiMart(Items);
 
 
             for (var i = 0; i < (Days + 1); i++)

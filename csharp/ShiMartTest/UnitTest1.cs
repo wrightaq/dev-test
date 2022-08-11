@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using csharp;
 
-namespace GildedRoseTest
+namespace ShiMartTest
 {
     [TestClass]
     public class UnitTest1
@@ -17,7 +17,7 @@ namespace GildedRoseTest
                 new Item { Name = "Test Item", SellIn = 10, Quality = 20 }
             };
 
-            var app = new GildedRose(items);
+            var app = new ShiMart(items);
 
             app.UpdateQuality();
 

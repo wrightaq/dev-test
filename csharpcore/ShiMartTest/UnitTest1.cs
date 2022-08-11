@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using GildedRoseKata;
+using ShiMartKata;
 using Xunit;
 
-namespace GildedRoseTest
+namespace ShiMartTest
 {
     public class UnitTest1
     {
@@ -12,7 +12,7 @@ namespace GildedRoseTest
         public void Test1()
         {
             var items = new List<Item> { new Item { Name = "Test", SellIn = 10, Quality = 20 } };
-            var app = new GildedRose(items);
+            var app = new ShiMart(items);
 
             app.UpdateQuality();
 

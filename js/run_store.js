@@ -1,4 +1,4 @@
-const { Shop, Item } = require("./src/gilded_rose");
+const { Shop, Item } = require("./src/shi_mart");
 
 const items = [
   new Item("Bananas", 10, 20),
@@ -13,11 +13,11 @@ const items = [
 ];
 
 const days = Number(process.argv[2]) || 2;
-const gildedRose = new Shop(items);
+const ShiMart = new Shop(items);
 
 for (let day = 0; day < days; day++) {
   console.log(`\n-------- day ${day} --------`);
   console.log("name, sellIn, quality");
   items.forEach(item => console.log(`${item.name}, ${item.sellIn}, ${item.quality}`));
-  gildedRose.updateQuality();
+  ShiMart.updateQuality();
 }

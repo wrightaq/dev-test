@@ -1,6 +1,6 @@
-# Gilded Rose Requirements Specification
+# ShiMart Requirements Specification
 
-Hi and welcome to team Gilded Rose. As you know, we are a small shop with a prime location in a
+Hi and welcome to team ShiMart. As you know, we are a small shop with a prime location in a
 prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest foods.
 Unfortunately, our foods are constantly degrading in quality as they approach their sell by date. We
 have a system in place that updates our inventory for us. Your task is to add the new feature to our
