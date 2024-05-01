@@ -15,12 +15,9 @@ public class TexttestFixture {
 
         ShiMart app = new ShiMart(items);
 
-        int days = 2;
-        if (args.length > 0) {
-            days = Integer.parseInt(args[0]) + 1;
-        }
+        int days = 31;
 
-        for (int i = 0; i < days; i++) {
+        for (int i = 0; i < days + 1; i++) {
             System.out.println("-------- day " + i + " --------");
             System.out.println("name, sellIn, quality");
             for (Item item : items) {
