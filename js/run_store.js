@@ -9,10 +9,10 @@ const items = [
   new Item("Canned Beans", -1, 80),
 
   // This Baked good does not work properly yet!
-  new Item("Baked Sourdough Bread", 3, 6),
+  new Item("Baked Sourdough Bread", 3, 5),
 ];
 
-const days = Number(process.argv[2]) || 2;
+const days = Number(process.argv[2]) || 5;
 const ShiMart = new Shop(items);
 
 for (let day = 0; day < days; day++) {
