@@ -35,6 +35,11 @@ class Shop {
     return bread;
   }
 
+  updateCannedBeans(beans) {
+    beans.sellIn = beans.sellIn - 1;
+    return beans;
+  }
+
   updateNonSpecialItems(item) {
     item.sellIn = item.sellIn - 1;
     item.quality = item.quality - 1;
@@ -49,7 +54,7 @@ class Shop {
       } else if (this.items[i].name == 'Baked Sourdough Bread') {
         this.updateBakedSourdoughBread(this.items[i])
       } else if(this.items[i].name == 'Canned Beans') {
-        continue;
+        this.updateCannedBeans;
       } else {
         this.updateNonSpecialItems(this.items[i]);
       }
