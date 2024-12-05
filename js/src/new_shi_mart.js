@@ -26,7 +26,7 @@ class Shop {
     bread.sellIn = bread.sellIn - 1;
 
     if (bread.quality == 1) {
-      bread.quality = 0
+      bread.quality = 0;
     }
     if (bread.quality > 0 && bread.quality != 1) {
       bread.quality = bread.quality - 2;
@@ -50,9 +50,9 @@ class Shop {
     for (let i = 0; i < this.items.length; i++) {
 
       if(this.items[i].name == 'Aged Brie') {
-        this.updateAgedBrie(this.items[i])
+        this.updateAgedBrie(this.items[i]);
       } else if (this.items[i].name == 'Baked Sourdough Bread') {
-        this.updateBakedSourdoughBread(this.items[i])
+        this.updateBakedSourdoughBread(this.items[i]);
       } else if(this.items[i].name == 'Canned Beans') {
         this.updateCannedBeans;
       } else {
