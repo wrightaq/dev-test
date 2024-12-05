@@ -1,4 +1,5 @@
-const { Shop, Item } = require("./src/shi_mart");
+// const { Shop, Item } = require("./src/shi_mart");
+const { Shop, Item } = require("./src/new_shi_mart");
 
 const items = [
   new Item("Bananas", 10, 20),
@@ -19,5 +20,6 @@ for (let day = 0; day < days; day++) {
   console.log(`\n-------- day ${day} --------`);
   console.log("name, sellIn, quality");
   items.forEach(item => console.log(`${item.name}, ${item.sellIn}, ${item.quality}`));
-  ShiMart.updateQuality();
+  // ShiMart.updateQuality();
+  ShiMart.updateItems()
 }
